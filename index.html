@@ -2,166 +2,765 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <meta name="description" content="My Personal Portfolio Website" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-
-    <div class="main">
-        <nav>
-            <span><img width="53" src="assets/images/logo.svg" alt=""></span>
-            <div>
-                <button class="btn">English</button>
-                <button class="btn btn-red-sm">Sign In</button>
+    <div class="portfolio-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>Personal Website</h1>
             </div>
-        </nav>
-        <div class="box">
-        </div>
-        <div class="hero">
-            <span>Enjoy big movies, hit series and more from ₹ 149.</span>
-            <span>Join today. Cancel anytime.</span>
-            <span>Ready to watch? Enter your email to create or restart your membership.</span>
-            <div class="hero-buttons">
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started &gt;</button>
-            </div>
-        </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#activities">Activities & Hobbies</a></li>
+                </ul>
+                </ul>
+            </nav>
+        </aside>
 
-        <div class="separation"></div>
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section id="about" class="section active">
+                <div class="section-container">
+                    <div class="about-content">
+                        <div class="profile-image">
+                            <div class="image-container" style="background: none;">
+                                <img src="protfolioimage.png" alt="Profile Picture">
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <h2 class="section-title">About Me</h2>
+                            <h1 class="name">Sai Krishna S</h1>
+                            <p class="title">Aspiring Frontend-Developer & SDE</p>
+                            <p class="bio">
+                                "I'm a passionate B.Tech student in my 2nd year of Information Science and Engineering
+                                at Siddaganga Institute of Technology, with a good foundation in HTML, CSS, and
+                                JavaScript and have a deep understanding of OOP's and I am
+                                currently at an intermediate level in Data Structures and Algorithms (DSA), actively
+                                developing my problem-solving skills. Aspiring to be a skilled Frontend
+                                Developer and SDE, I participate in coding events and
+                                technical clubs to enhance my expertise. I'm always eager to learn, innovate, and build
+                                user-friendly digital experiences."
+                            </p>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <span class="label">Email:</span>
+                                    <span class="value"><a href="mailto:saikrishnas.yadav@gmail.com"
+                                            style="text-decoration: none;color:black">saikrishnas.yadav@gmail.com</a></span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="label">Phone:</span>
+                                    <span class="value"><a href="Tel:7406346055"
+                                            style="text-decoration: none;color:black">+91 7406346055</a></span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="label">Location:</span>
+                                    <span class="value">Bengaluru ,Karnataka ,India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>B.Tech/B.E in Information Science & Engineering</h3>
+                                <h4>Siddaganga Institute Of Technology</h4>
+                                <p class="years">September 2023 - July 2027</p>
+                                <p>
+                                    <li>Currently studying in 4th semester.</li>
+                                    <li>Participated in various coding events,hackathons.</li>
+                                    <li>Volunteered in college functions and fests.</li>
+                                    <li>Serving as a member of multiple Technical-Clubs.</li>
+                                    <li>Served as a C.R during 1st year of B.Tech.</li>
+                                    <li>CGPA:<b>9.88</b>(on completion of 1st year).</li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Class 12th</h3>
+                                <h4>Narayana e-Techno School</h4>
+                                <p class="years">2021 - 2023</p>
+                                <p>
+                                    <li>Focused on Mathematics and Computer Science.</li>
+                                    <li>Participated in science fairs and
+                                        technology competitions.</li>
+                                    <li>Percentage:<b>83.3%</b></li>
+                                    <li><b>Skills:</b>Basics of SQL,Python</li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Class 10th</h3>
+                                <h4>Maruthi Vidyalaya</h4>
+                                <p class="years">2008 - 2021</p>
+                                <p>
+                                    <li>Gold-Medalist in Kannada Subject in Class 10th.</li>
+                                    <li>Written NTSE Exam.</li>
+                                    <li>Served as School Head Boy during Class 10th.</li>
+                                    <li>Served as School Yoga Captain during Class 9th.</li>
+                                    <li>Percentage:<b>94.67%</b></li>
+                                    <li><b>Skills:</b>Basics of JAVA</li>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technical Skills Section -->
+            <section id="skills" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills-container">
+
+                        <div class="skill-category">
+                            <h3>Programming Languages</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">C</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">C++</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">C#</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Java</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 25%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Python</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 25%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Web Development</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">HTML</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">CSS</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">JavaScript</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Node.js</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Databases</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">SQL</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>FrameWorks</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">ReactJS</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Tools & Technologies</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">Git</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">GitHub</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">VS Code</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Figma</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">UI/UX</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>CS Fundamentals</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">Data Structure</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Algorithm</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">OOPs</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Soft Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-name">Communication</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Teamwork</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Public Speaking</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">Logical Reasoning</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="certifications-grid">
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>ACADEMIC ACHIEVER</h3>
+                                <p class="organization">Siddaganga Institute of Technolofy</p>
+                                <p class="date">January 2025</p>
+                                <p class="description">Topper of Department(ISE) with SGPA of <b>9.95</b> in second
+                                    semester examinations</p>
+                                <p class="description"><b>Skills : </b>Academics</p>
+                                <a href="certificates/Academics Certificate.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>Goldman Sachs - Software Engineering Job Simulation</h3>
+                                <p class="organization">Forage</p>
+                                <p class="date">October 2024</p>
+                                <p class="description">Completion Of Goldman Sachs Software Engineering Job Simulation.
+                                </p>
+                                <p class="description"><b>Skills : </b>Cryptography Basics,Password Cracking</p>
+                                <a
+                                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_aZJcuiWshRmWZc5sS_1729365034385_completion_certificate.pdf">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>Accenture - Software Engineering Job Simulation</h3>
+                                <p class="organization">Forage</p>
+                                <p class="date">October 2024</p>
+                                <p class="description">Completion Of Accenture Software Engineering Job Simulation.</p>
+                                <p class="description"><b>Skills : </b>Agile,Analysis,Debugging
+                                    Code,Identification,Reading Code,Waterfall</p>
+                                <a
+                                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/HNpZwZcuYwona2d8Y_Accenture%20Nordics_aZJcuiWshRmWZc5sS_1729363475508_completion_certificate.pdf">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>Accenture-Data Analytics and Visulization Job Simulation</h3>
+                                <p class="organization">Forage</p>
+                                <p class="date">October 2024</p>
+                                <p class="description">Completion Of Accenture-Data Analytics and Visulization Job
+                                    Simulation.</p>
+                                <p class="description"><b>Skills : </b>Communication,Data Analysis,Data Modeling,Data
+                                    Understanding,Data Visualization,Presentation,Project Planning,Public
+                                    Speaking,Strategy,Teamwork</p>
+                                <a
+                                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_aZJcuiWshRmWZc5sS_1729342574175_completion_certificate.pdf">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>Foundational C# with Microsoft</h3>
+                                <p class="organization">freCodeCamp</p>
+                                <p class="date">December 2024</p>
+                                <p class="description">Successfully completed the Foundational C# with Microsoft
+                                    Developer Certification</p>
+                                <p class="description"><b>Skills : </b>C#</p>
+                                <a
+                                    href="https://freecodecamp.org/certification/SaiKrishnaS/foundational-c-sharp-with-microsoft">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>RESPONSIVE WEB DESIGN</h3>
+                                <p class="organization">freeCodeCamp</p>
+                                <p class="date">October 2024</p>
+                                <p class="description">completed the Responsive Web Design Developer Certification
+                                    representing approxiamately 300 hours of work</p>
+                                <p class="description"><b>Skills : </b>HTML,CSS</p>
+                                <a
+                                    href="https://freecodecamp.org/certification/SaiKrishnaS/responsive-web-design">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>AI for Students - Build your own generative AI Model Workshop</h3>
+                                <p class="organization">NXT WAVE</p>
+                                <p class="date">September 2024</p>
+                                <p class="description">Participated in the Workshop by AI expert Mr. Abhinav Devaguptagu
+                                    on AI for Students - Build your own generative AI Model Workshop.The workshop was
+                                    mainly designed to equip students with skills essential in AI era</p>
+                                <p class="description"><b>Skills : </b>AI Basics</p>
+                                <a href="certificates/AIPARTICIPATION.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>AI for Students - Build your own generative AI Model Workshop</h3>
+                                <p class="organization">NXT WAVE</p>
+                                <p class="date">September 2024</p>
+                                <p class="description">Sucessfully completed the hands-on-project in the AI for
+                                    Students - Build your own generative AI Model Workshop conducted by AI expert Mr.
+                                    Abhinav
+                                    Devaguptagu.The workshop was mainly designed to equip students with skills essential
+                                    in AI era</p>
+                                <p class="description"><b>Skills : </b>AI Basics</p>
+                                <a href="certificates/AICOMPLETION.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>PROGRAMMING AND PROBLEM SOLVING USING C++</h3>
+                                <p class="organization">CodeChef</p>
+                                <p class="date">January 2025</p>
+                                <p class="description">Completed all the lessons and projects of Learn programming and
+                                    Problem Solving using C++</p>
+                                <p class="description"><b>Skills : </b>C++,Problem-solving</p>
+                                <a href="certificates/CODECHEFCOMPLETION.jpeg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>CODE CLASH 2025</h3>
+                                <p class="organization">Let's Code Community</p>
+                                <p class="date">March 2025</p>
+                                <p class="description">Participated in the Ultimate Coding Battle Competition and
+                                    secured 652nd place of 7500</p>
+                                <p class="description"><b>Skills : </b>Programming,Problem-Solving</p>
+                                <a href="certificates/LETSCODE.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>APTI-QUEST</h3>
+                                <p class="organization">Enroll Engineer</p>
+                                <p class="date">February 2025</p>
+                                <p class="description">Participated in the Aptitude and Problem-Solving Challenge</p>
+                                <p class="description"><b>Skills : </b>Aptitude,Problem-solving</p>
+                                <a href="certificates/APTITECH.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>INVICTUS 2025</h3>
+                                <p class="organization">Technical Council DTU</p>
+                                <p class="date">February 2025</p>
+                                <p class="description">Participated in the EXAH CTF,a National-Level 24hr Online
+                                    Hackathon</p>
+                                <p class="description"><b>Skills : </b>Web Development,Frontend Development</p>
+                                <a href="certificates/EHAX CTF 1.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>CODE-O-PHILE'</h3>
+                                <p class="organization">IIIT,Nagpur</p>
+                                <p class="date">March 2025</p>
+                                <p class="description">Participated in the Coding Quiz Competition</p>
+                                <p class="description"><b>Skills : </b>Programming</p>
+                                <a href="certificates/CODEOPHILE1.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>AXIS'25</h3>
+                                <p class="organization">VNIT,Nagpur</p>
+                                <p class="date">January 2025</p>
+                                <p class="description">Participated in the WINTER CODING CHALLENGE held by AXIS'25,VNIT
+                                </p>
+                                <p class="description"><b>Skills : </b>Programming,Problem-Solving</p>
+                                <a href="certificates/AXIS25.jpg">Certificate</a>
+                            </div>
+                        </div>
+
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>AI & ML QUIZ</h3>
+                                <p class="organization">Nitte Meenaakshi Institute Of Technolofy (NMIT),Yelahanka</p>
+                                <p class="date">February 2025</p>
+                                <p class="description">Participated in the AI & ML Quiz Challenge</p>
+                                <p class="description"><b>Skills : </b>Programming</p>
+                                <a href="certificates/AIML NITTE CERTIFICATE.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>CODE-HUNT 2K25</h3>
+                                <p class="organization">Vidyavardhaka College of Engineering,Mysore</p>
+                                <p class="date">February 2025</p>
+                                <p class="description">Participated in the CODE-HUNT 2K25,a National-Level Inter-College
+                                    Coding Competition and securing 7th place out of 60.</p>
+                                <p class="description"><b>Skills : </b>Web Development,Frontend
+                                    Development,Debugging,Problem Solving</p>
+                                <a href="certificates/CODEHUNT25.jpeg">Certificate</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>Rage 2024</h3>
+                                <p class="organization">ScriptInk,SIT</p>
+                                <p class="date">May 2024</p>
+                                <p class="description">Participated in the RAGE 2k24 Data Structures & Algorithms(DSA)
+                                    Workshop held at the Dept. of CSE,SIT,Tumkur</p>
+                                <p class="description"><b>Skills : </b>C,Problem-Solving</p>
+                                <a href="certificates/RAGEDSA.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>Rage 2024</h3>
+                                <p class="organization">ScriptInk,SIT</p>
+                                <p class="date">May 2024</p>
+                                <p class="description">Participated in the RAGE 2k24 Web Development
+                                    Workshop held at the Dept. of CSE,SIT,Tumkur</p>
+                                <p class="description"><b>Skills : </b>C,Problem-Solving</p>
+                                <a href="certificates/RAGEDEV.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>IdEEEas 2K24</h3>
+                                <p class="organization">IEEE SIT Student Branch</p>
+                                <p class="date">April 2024</p>
+                                <p class="description">Participated in C-NARIO,a National-Level technical symposium
+                                    organised by IEEE SIT SB,at SIT,Tumkur</p>
+                                <p class="description"><b>Skills : </b>C,Problem-Solving</p>
+                                <a href="certificates/CNARIO.jpg">Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="certification-content">
+                                <h3>IdEEEas 2K24</h3>
+                                <p class="organization">IEEE SIT Student Branch</p>
+                                <p class="date">April 2024</p>
+                                <p class="description">Volunteered in Webify Event,a National-Level technical symposium
+                                    organised by IEEE SIT SB,at SIT,Tumkur</p>
+                                <p class="description"><b>Skills : </b>Non-profit volunteering</p>
+                                <a href="certificates/Webify.jpg">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-item">
+                            <div class="project-content">
+                                <h3>Personal Portfolio Website</h3>
+                                <p class="project-type">Web Development</p>
+                                <p class="project-date">March 2025</p>
+                                <p class="description">Created a responsive personal portfolio website using HTML, CSS,
+                                    and JavaScript to showcase my skills, education, certifications, projects and
+                                    extracurricular activities.</p>
+                                <p class="tech-stack"><b>Technologies:</b> HTML, CSS, JavaScript</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/SaiKrishna-333/Profolio-Website.git"
+                                        class="project-link">GitHub</a>
+                                    <a href="https://saikrishna-333.github.io/Profolio-Website/"
+                                        class="project-link">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-item">
+                            <div class="project-content">
+                                <h3>Voice-Activated Virtual Assistant</h3>
+                                <p class="project-type">Web Development</p>
+                                <p class="project-date">January 2025</p>
+                                <p class="description">Create a virtual assistant which is voice activated, which can
+                                    interact with users through voice commands.</p>
+                                <p class="tech-stack"><b>Technologies:</b> HTML, CSS, JavaScript, PHP, XML, JSON, API
+                                    Integration</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/SaiKrishna-333/VirtualAssistant.github.io.git"
+                                        class="project-link">GitHub</a>
+                                    <a href="https://saikrishna-333.github.io/VirtualAssistant.github.io/"
+                                        class="project-link">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-item">
+                            <div class="project-content">
+                                <h3>To-Do List Web Application</h3>
+                                <p class="project-type">Web Development</p>
+                                <p class="project-date">May 2024</p>
+                                <p class="description">This is a simple To-Do List web application that allows users to
+                                    add, check off, and delete tasks. The application stores the task list in local
+                                    storage, ensuring tasks persist even after a page refresh.</p>
+                                <p class="tech-stack"><b>Technologies:</b> HTML, CSS, JavaScript</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/SaiKrishna-333/To-Do-List.git"
+                                        class="project-link">GitHub</a>
+                                    <a href="https://saikrishna-333.github.io/To-Do-List/" class="project-link">Live
+                                        Demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-item">
+                            <div class="project-content">
+                                <h3>Traffic Management System</h3>
+                                <p class="project-type">Web Development</p>
+                                <p class="project-date">February 2025</p>
+                                <p class="description">About
+                                    TrafficEase is a web-based application designed to help users navigate city traffic
+                                    efficiently. It provides real-time traffic updates, route optimization, safety
+                                    alerts, and public transport information. The application is built using HTML, CSS,
+                                    JavaScript, and Leaflet.js for map integration.</p>
+                                <p class="tech-stack"><b>Technologies:</b> HTML, CSS, JavaScript, Existing API
+                                    Integration</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/SaiKrishna-333/TrafficManagement.git"
+                                        class="project-link">GitHub</a>
+                                    <a href="#" class="project-link">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="project-item">
+                            <div class="project-content">
+                                <h3>IPL Score/Winner Predictor</h3>
+                                <p class="project-type">Machine Learning</p>
+                                <p class="project-date">March 2025</p>
+                                <p class="description">Cricket Match Win Probability Predictor is a web application
+                                    built using Flask that predicts the probability of a team winning a cricket match
+                                    based on live match data. The application uses a pre-trained machine learning model
+                                    to calculate the win and loss probabilities for the batting team.</p>
+                                <p class="tech-stack"><b>Technologies:</b> Frontend:HTML, CSS || Backend:Python,Flask ||
+                                    Machine Learning: Scikit-learn (for model training and prediction) ,Pandas (for data
+                                    manipulation) || Other Tools: Pickle (for model serialization and deserialization)
+                                </p>
+                                <div class="project-links">
+                                    <a href="https://github.com/SaiKrishna-333/IPL-WIN-PREDICTOR.git"
+                                        class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Activities & Hobbies Section -->
+            <section id="activities" class="section">
+                <div class="section-container">
+                    <h2 class="section-title">Activities & Hobbies</h2>
+                    <div class="activities-container">
+                        <div class="activity-category">
+                            <h3>Extracurricular Activities</h3>
+                            <ul class="activities-list">
+                                <li>
+                                    <h4>GEEKS FOR GEEKS CLUB,SIT - Member</h4>
+                                    <p>Member of Technical Club named as <b>GFG</b> which conducts coding
+                                        events,hackathons and
+                                        keeps active participation of the students as well as the volunteers active both
+                                        in volunteering as well as in active participation of the events.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4>RESEARCH GATE CLUB,SIT - Member</h4>
+                                    <p>Member of Technical Club named as <b>RG</b> which conducts coding
+                                        events,hackathons,and
+                                        helps in writing and publishing of <b>Research Papers</b>.Before being a part of
+                                        this club i had also been to various coding events conducted by this club.</p>
+                                </li>
+                                <li>
+                                    <h4>INSTITUTION INNOVATION COUNCIL CLUB,SIT - Member</h4>
+                                    <p>Member of this Technical as well as Non-technical Club Club named as <b>IIC</b>
+                                        which
+                                        conducts events related to coding as well as non coding and even hackathons and
+                                        being as a part of this club also makes volunteers in doing events/tasks which
+                                        even
+                                        leads to welfare of the society.</p>
+                                </li>
+                                <li>
+                                    <h4>LEADERSHIP QUALITIES</h4>
+                                    <p>Was elected as a <b>Class Representative(C.R)</b> during 1st year of B.E and very
+                                        proud
+                                        to announce that i had carried out my duties to the utmost.</p>
+                                    <p>Was elected as <b>Student President</b> during PUC(Class 12th).</p>
+                                    <p>Was elected as <b>School Head Boy</b> during Class 10th.</p>
+                                    <p>Was elected as <b>School Yoga Captain</b> during Class 9th.</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="activity-category">
+                            <h3>Hobbies & Interests</h3>
+                            <div class="hobbies-grid">
+                                <div class="hobby-item">
+                                    <div class="hobby-icon">🏏</div>
+                                    <div class="hobby-name">Playing Cricket</div>
+                                </div>
+                                <div class="hobby-item">
+                                    <div class="hobby-icon">🎬</div>
+                                    <div class="hobby-name">Watching Movies</div>
+                                </div>
+                                <div class="hobby-item">
+                                    <div class="hobby-icon">✈️</div>
+                                    <div class="hobby-name">Travelling</div>
+                                </div>
+                                <div class="hobby-item">
+                                    <div class="hobby-icon">👨‍👩‍👧‍👦</div>
+                                    <div class="hobby-name">Spending Time with Friends/Family</div>
+                                </div>
+                                <div class="hobby-item">
+                                    <div class="hobby-icon">🎮</div>
+                                    <div class="hobby-name">Gaming</div>
+                                </div>
+                                <div class="hobby-item">
+                                    <div class="hobby-icon">💻</div>
+                                    <div class="hobby-name">Coding/<br>Programming</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 
-    <section class="first">
-        <div>
-            <span>Enjoy on your TV</span>
-            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
-        </div>
-
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
-                autoplay loop muted></video>
-        </div>
-    </section>
-    <div class="separation"></div>
-
-    <section class="first second">
-
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
-
-        </div>
-        <div>
-            <span>Download your shows to watch offline</span>
-            <span>Save your favourites easily and always have something to watch.</span>
-        </div>
-    </section>
-
-    <div class="separation"></div>
-    <section class="first third">
-        <div>
-            <span>Watch everywhere</span>
-            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
-        </div>
-
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
-                autoplay loop muted></video>
-        </div>
-    </section>
-    <div class="separation"></div>
-
-
-    <section class="first second">
-
-        <div class="secImg">
-            <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
-                alt="">
-
-        </div>
-        <div>
-            <span>Create profiles for kids</span>
-            <span>Send children on adventures with their favourite characters in a space made just for them—free with
-                your membership.</span>
-        </div>
-    </section>
-
-    <div class="separation"></div>
-
-    <section class="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faqbox">
-            <span>What is NetFlix</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
-        </div>
-        <div class="faqbox">
-            <span>How much does Netflix cost?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
-        </div>
-        <div class="faqbox">
-            <span>What can I watch on Netflix?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
-        </div>
-        <div class="faqbox">
-            <span>Where can I watch?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-
-        </div>
-    </section>
-    <div class="separation"></div>
-
-    <footer>
-        <div class="questions">
-            Questions? Call 000-800-919-1694
-        </div>
-        <div class="footer">
-            <div class="footer-item"> 
-                <a href="faq">Investor Relations</a>
-                <a href="faq">Jobs</a>
-                <a href="faq">Ways to Watch</a>
-                <a href="faq">Terms of Use</a>
-            </div>
-
-            <div class="footer-item"> 
-                <a href="faq">Help Centre</a>
-                <a href="faq">Account</a>
-                <a href="faq">Speed Test</a>
-                <a href="faq">Legal Notices</a>
-            </div>
-            <div class="footer-item">
-                <a href="faq">Media Centre</a>
-                <a href="faq">Privacy</a>
-                <a href="faq">Cookie Preferences</a> 
-                <a href="faq">Corporate</a>
-            </div>
-
-            <div class="footer-item">
-                <a href="faq">Contact Us</a>
-                <a href="faq">Speed Test</a> 
-                <a href="faq">Legal Notices</a> 
-                <a href="faq">Only on Netflix</a>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Sai Krishna S. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sai-krishna-s-7a9191291/" class="social-link">LinkedIn</a>
+                <a href="https://github.com/SaiKrishna-333" class="social-link">GitHub</a>
+                <a href="https://x.com/SaiKrishna_2005" class="social-link">Twitter</a>
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
