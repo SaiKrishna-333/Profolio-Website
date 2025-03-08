@@ -1085,3 +1085,8 @@ body.dark-mode {
         grid-template-columns: 1fr;
     }
 }
+
+.certification-content a{
+    text-decoration: none;
+    color: black;
+}
