@@ -624,6 +624,11 @@
     background: rgba(245, 158, 11, 0.08);
 }
 
+.certification-content a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Enhanced Activities & Hobbies Section */
 .activities-container {
     display: grid;
@@ -1086,7 +1091,3 @@ body.dark-mode {
     }
 }
 
-.certification-content a{
-    text-decoration: none;
-    color: black;
-}
